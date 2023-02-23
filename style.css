@@ -9,6 +9,25 @@ body {
     background-color: white;
 }
 
+.polosa {
+    z-index: 10;
+
+    position: fixed;
+    width: 0;
+    height: 10px;
+    background-color: #90e051;
+}
+#scroller {
+    overflow: scroll;
+    height: 150px;
+    width: 150px;
+    border: 5px dashed orange;
+}
+
+#output {
+    padding: 1rem 0;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -30,7 +49,7 @@ header nav a {
 
 header nav a:hover {
     transition: color ease-in 0.1s;
-    color: #90E051;
+    color: #90e051;
 }
 
 main .page {
@@ -57,7 +76,7 @@ main .page .headerText h2 {
     font-style: normal;
     font-weight: 700;
     font-size: 7.25rem;
-    color: #90E051;
+    color: #90e051;
 }
 
 main .page .headerText p {
@@ -74,13 +93,13 @@ main .page .headerText h3 {
     font-weight: 500;
     font-size: 29.3999px;
     line-height: 49px;
-    color: #90E051;
+    color: #90e051;
     display: inline;
     margin-left: 45px;
 }
 
 main .page .headerText button {
-    background: #90E051;
+    background: #90e051;
     width: 246px;
     height: 88px;
     margin-top: 62px;
@@ -90,7 +109,7 @@ main .page .headerText button {
     font-weight: 500;
     font-size: 29.3999px;
     line-height: 49px;
-    color: #FFFFFF;
+    color: #ffffff;
     transform: rotate(0.87deg);
 }
 
@@ -128,12 +147,12 @@ main .page .burgerZone .price {
     border-radius: 50%;
     width: 151px;
     height: 151px;
-    background: #90E051;
+    background: #90e051;
     font-style: normal;
     font-weight: 700;
     font-size: 34.6526px;
     line-height: 41px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 main .spast {
@@ -167,7 +186,7 @@ main .teaser div img {
 
 main .menu .pictureBurg .circle {
     border-radius: 50%;
-    border: 2.57449px dashed #90E051;
+    border: 2.57449px dashed #90e051;
     width: 749px;
     height: 720px;
     width: 749.18px;
@@ -222,7 +241,7 @@ main .menu .pictureBurg .minMenu {
     justify-content: center;
     align-items: center;
     border-radius: 19px;
-    background-color: #90E051;
+    background-color: #90e051;
     position: absolute;
     width: 146px;
     height: 136px;
@@ -236,7 +255,7 @@ main .menu .pictureBurg .minMenu p {
     font-weight: 700;
     font-size: 55.897px;
     line-height: 66px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-transform: uppercase;
     width: 116px;
     word-wrap: break-word;
@@ -250,7 +269,7 @@ main .menu .menuBurg .buyburger {
     align-items: center;
     width: 686px;
     height: 748px;
-    background: #90E051;
+    background: #90e051;
     box-shadow: 0px 17.2708px 107.943px -21.5886px rgba(0, 0, 0, 0.25);
     border-radius: 69.0833px;
 }
@@ -264,14 +283,14 @@ main .menu .menuBurg .buyburger .see {
     bottom: 56px;
     width: 265.17px;
     height: 63.01px;
-    background: #FFFFFF;
+    background: #ffffff;
     border-radius: 17.5029px;
     font-style: normal;
     font-weight: 700;
     font-size: 22.3521px;
     line-height: 26px;
     letter-spacing: -0.025em;
-    color: #90E051;
+    color: #90e051;
 }
 
 main .menu .menuBurg .buyburger .gradient {
@@ -281,7 +300,11 @@ main .menu .menuBurg .buyburger .gradient {
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #90E051 116.84%);
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0) 0%,
+        #90e051 116.84%
+    );
     box-shadow: 0px 17.2708px 107.943px -21.5886px rgba(0, 0, 0, 0.25);
     border-radius: 69.0833px;
 }
@@ -292,7 +315,7 @@ main .menu .menuBurg .buyburger .chickenBurg {
     position: relative;
     width: 265.54px;
     height: 289.54px;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 6.68295px 41.7685px -8.35369px rgba(0, 0, 0, 0.25);
     border-radius: 26.7318px;
 }
@@ -366,7 +389,7 @@ main .menu .menuBurg .buyburger .chickenBurg .pricetag p {
     font-size: 22.395px;
     line-height: 27px;
     letter-spacing: -0.03em;
-    color: #90E051;
+    color: #90e051;
 }
 
 main .menu .menuBurg .buyburger .chickenBurg .plus {
@@ -380,8 +403,8 @@ main .menu .menuBurg .buyburger .chickenBurg .plus {
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    background: #90E051;
-    color: #FFFFFF;
+    background: #90e051;
+    color: #ffffff;
     font-size: 40px;
     box-shadow: 0px 6.39857px 20.7954px -1.59964px rgba(0, 0, 0, 0.25);
 }
@@ -454,7 +477,7 @@ main .reviu .comment .commBy h2 {
     font-weight: 700;
     font-size: 22.6712px;
     line-height: 33px;
-    color: #90E051;
+    color: #90e051;
 }
 
 main .reviu .comment .commBy h3 {
@@ -504,7 +527,7 @@ main .download .strip {
     position: relative;
     width: 100%;
     height: 374px;
-    background: #90E051;
+    background: #90e051;
     border-radius: 20px;
 }
 
@@ -538,7 +561,7 @@ main .download h1 {
     font-weight: 700;
     font-size: 65.1356px;
     line-height: 77px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 main .download .hamburg {
@@ -583,7 +606,7 @@ main .aboutCafe .cafePic .about {
     left: -556px;
     width: 662px;
     height: 324.9px;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 6.10138px 61.0138px rgba(0, 0, 0, 0.1);
     border-radius: 12.9546px;
 }
@@ -615,7 +638,7 @@ main .aboutCafe .cafePic .elips {
     right: -128px;
     bottom: -92px;
     border-radius: 50%;
-    background: #90E051;
+    background: #90e051;
 }
 
 main .aboutCafe .cafePic .food {
@@ -645,7 +668,7 @@ footer .subscribe {
     height: 246px;
     left: 304px;
     top: -165px;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 5px 6px 7px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 }
@@ -656,7 +679,7 @@ footer .subscribe h1 {
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
-    color: #90E051;
+    color: #90e051;
 }
 
 footer .bigPic {
@@ -664,7 +687,7 @@ footer .bigPic {
     position: relative;
     margin-top: 174px;
     width: 100%;
-    color: #FFFFFF;
+    color: #ffffff;
     height: 565px;
 }
 
@@ -713,7 +736,7 @@ footer .bigPic .subscribe .blk .textik {
 }
 
 footer .bigPic .subscribe .blk .inpulka input {
-    border: 1px solid #90E051;
+    border: 1px solid #90e051;
     width: 366px;
     height: 57px;
     padding: 1px 0 0 16px;
@@ -731,14 +754,14 @@ footer .bigPic .subscribe .blk .inpulka button {
     font-size: medium;
     width: 193px;
     height: 57px;
-    background-color: #90E051;
-    color: #FFFFFF;
+    background-color: #90e051;
+    color: #ffffff;
     border: none;
 }
 
 footer .bigPic .subscribe .blk .inpulka input::placeholder {
     font-size: larger;
-    color: #90E051;
+    color: #90e051;
 }
 
 footer .bigPic .subscribe .blk .iconu {
